@@ -7,7 +7,7 @@ import androidx.room.OnConflictStrategy.REPLACE
 import androidx.room.Query
 
 @Dao
-interface Dao {
+interface ProfileDao {
     @Insert(onConflict = REPLACE)
     suspend fun insert(entity: Entity)
 
