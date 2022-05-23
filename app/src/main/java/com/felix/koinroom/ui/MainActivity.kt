@@ -2,6 +2,7 @@ package com.felix.koinroom.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.felix.koinroom.data.room.Database
 import com.felix.koinroom.data.room.Entity
 import com.felix.koinroom.databinding.ActivityMainBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
